@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Adobe Photoshop Express",
+    "description": "Enhanced media modules, integrated camera and gallery for Adobe app.",
+    "link": "https://play.google.com/store/apps/details?id=com.adobe.psmobile"
+  },
+  {
+    "name": "BankSathi",
+    "description": "Fintech mobile app built with Flutter, integrated REST APIs and analytics.",
+    "link": "https://play.google.com/store/search?q=banksathi&c=apps"
+  },
+  {
+    "name": "Apna",
+    "description": "Built and maintained scalable app modules for India’s leading job platform.",
+    "link": "https://apna.co"
+  },
+  {
+    "name": "LinkOMed",
+    "description": "Social and onboarding platform for medical professionals with CMS and LMS modules.",
+    "link": "https://www.ailoitte.com/"
+  }
+]
