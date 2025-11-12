@@ -33,3 +33,14 @@ async function loadProjects() {
   searchBox.addEventListener("input", e => render(e.target.value));
 }
 loadProjects();
+
+
+
+
+// git init
+// git remote add origin https://github.com/4gmayank/4gmayank.github.io.git
+// git remote set-url origin https://github.com/4gmayank/4gmayank.github.io.git
+// git add .
+// git commit -m "🚀 
+// git branch -M main
+// git push --set-upstream origin main
