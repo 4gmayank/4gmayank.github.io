@@ -1,0 +1,27 @@
+{
+  "name": "Mayank Goyal",
+  "title": "Senior Mobile & Software Engineer",
+  "headline": "Building scalable mobile experiences.",
+  "location": "Bengaluru, India",
+
+  "experience": {
+    "years": "8+",
+    "applications": "20+"
+  },
+
+  "summary": "Software Lead Engineer specializing in Flutter, Native Android, Kotlin, scalable mobile architecture, and AI-assisted engineering.",
+
+  "focus": [
+    "Flutter",
+    "Native Android",
+    "Kotlin",
+    "Software Architecture",
+    "AI Engineering"
+  ],
+
+  "contact": {
+    "email": "mayankgoyal.mait@gmail.com",
+    "github": "https://github.com/4gmayank",
+    "portfolio": "https://4gmayank.github.io/"
+  }
+}
