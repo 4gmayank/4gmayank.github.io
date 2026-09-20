@@ -1,8 +1,8 @@
-# Mayank Goyal — Premium Mobile Portfolio
+# Mayank Goyal — Mobile App Developer
 
-A responsive interactive portfolio built with HTML, CSS and JavaScript.
+A responsive interactive develoepr https://4gmayank.github.io/
 
-## Included
+## Portfolio Included 
 - Premium violet/blue visual theme (green removed)
 - Dark/light mode
 - Animated hero and scroll reveal
