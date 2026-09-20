@@ -1,6 +1,6 @@
 # Mayank Goyal — Mobile App Developer
 
-A responsive interactive develoepr https://4gmayank.github.io/
+A responsive interactive developer https://4gmayank.github.io/
 
 ## Portfolio Included 
 - Premium violet/blue visual theme (green removed)
