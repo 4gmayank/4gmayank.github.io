@@ -1,75 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mayank Goyal | Sr. Software Engineer</title>
+  <meta name="description" content="Mayank Goyal — Mobile Lead Engineer specializing in Native Android, JNI/C++, BLE, Flutter and SwiftUI." />
+  <title>Mayank Goyal | Mobile Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Mayank Goyal</h1>
-    <p>Sr. Software Engineer | Flutter & Android Developer</p>
-    <button id="themeToggle">🌙</button>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="brand" href="#home"><span>MG</span><b>Mayank Goyal</b></a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav>
+      <a href="#about">About</a><a href="#capabilities">Capabilities</a><a href="#projects">Projects</a>
+      <a href="#architecture">Architecture</a><a href="#notes">Notes</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle theme">◐</button>
   </header>
 
-  <section id="about">
-    <h2>About</h2>
-    <p>
-      Passionate and results-driven Mobile App Engineer with 7+ years of experience building
-      high-impact mobile apps for clients including Adobe, Etimad Holding & Apna.
-      Skilled in Flutter, Android (Java/Kotlin), and scalable architecture.
-    </p>
-    <a class="btn" href="assets/CV Mayank Goyal.pdf" download>Download Resume</a>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-      <span>Flutter</span><span>Dart</span><span>Java</span><span>Kotlin</span>
-      <span>Android SDK</span><span>MVVM</span><span>BLoC</span><span>Firebase</span>
-      <span>CI/CD</span><span>GitHub</span><span>AWS</span><span>GCP</span>
-    </div>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="timeline">
-      <div class="job">
-        <h3>Etimad Holding, Abu Dhabi</h3>
-        <p><strong>Sr. Software Engineer</strong> — Aug 2024 - Sep 2025</p>
-        <p>Developed FalconEye (Traffic Monitoring Platform) integrating WorkManager & real-time data sync.</p>
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> Mobile engineering · Android-first</div>
+        <h1>Building mobile experiences<br><em>close to the metal.</em></h1>
+        <p class="hero-text">Senior Mobile Application Developer focused on Native Android, JNI/C++, BLE, Flutter and SwiftUI — combining polished interfaces with dependable systems.</p>
+        <div class="actions"><a class="btn primary" href="#projects">Explore work ↗</a><a class="btn ghost" href="#contact">Let's connect</a></div>
+        <div class="mini-stats"><div><strong>7+</strong><span>Years mobile experience</span></div><div><strong>5</strong><span>Core engineering areas</span></div><div><strong>∞</strong><span>Curiosity for systems</span></div></div>
       </div>
-      <div class="job">
-        <h3>Varite India (Adobe)</h3>
-        <p><strong>Sr. Software Engineer</strong> — Jan 2024 - July 2024</p>
-        <p>Worked on Adobe Photoshop Express, implementing advanced camera & gallery modules.</p>
+      <div class="hero-visual reveal">
+        <div class="orb"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="device-card">
+          <div class="device-top"><span></span><small>mobile.systems</small><i>↗</i></div>
+          <div class="code-line"><b>01</b><span>interface</span><em>SwiftUI / Compose</em></div>
+          <div class="code-line"><b>02</b><span>logic</span><em>Kotlin / Dart</em></div>
+          <div class="code-line"><b>03</b><span>native</span><em>JNI / C++ / NDK</em></div>
+          <div class="code-line"><b>04</b><span>connectivity</span><em>BLE</em></div>
+          <div class="device-footer">DESIGN · BUILD · MEASURE</div>
+        </div>
       </div>
-      <div class="job">
-        <h3>Ailoitte Technologies</h3>
-        <p><strong>Flutter Developer</strong> — May 2021 - May 2023</p>
-        <p>Built @LinkOMed and fintech apps for BankSathi & Apna using Clean Architecture and CI/CD.</p>
+    </section>
+
+    <section id="about" class="section split">
+      <div class="section-label">01 / About</div>
+      <div><h2>Engineering with a product mindset.</h2>
+      <p class="lead">I enjoy understanding how an application behaves from the UI layer down to native code, device connectivity and local persistence.</p>
+      <p>My work spans Android application development, cross-platform delivery and native integrations. This portfolio is a living record of selected projects, architecture decisions and technical notes.</p>
+      <div class="pill-row"><span>Reliable systems</span><span>Clear architecture</span><span>Useful UX</span><span>Continuous learning</span></div></div>
+    </section>
+
+    <section id="capabilities" class="section">
+      <div class="section-label">02 / Capabilities</div><h2>Focused, not crowded.</h2>
+      <div class="cap-grid">
+        <article class="cap-card"><span class="number">01</span><h3>Native Android</h3><p>Kotlin, Java, Jetpack Compose, MVVM, Clean Architecture, Coroutines, Flow, Room, WorkManager and Navigation.</p><div class="tag">Android platform</div></article>
+        <article class="cap-card"><span class="number">02</span><h3>JNI & C++</h3><p>Android NDK/JNI integration, native image-processing workflows, Java/Kotlin bridges and Binder-aware execution.</p><div class="tag">Native layer</div></article>
+        <article class="cap-card"><span class="number">03</span><h3>BLE & Connectivity</h3><p>Bluetooth Low Energy discovery, GATT connections, sensor readings, synchronization and real-time communication.</p><div class="tag">Connectivity</div></article>
+        <article class="cap-card"><span class="number">04</span><h3>Flutter</h3><p>Flutter and Dart, BLoC, Riverpod, platform channels, reusable components, deep linking and responsive UI.</p><div class="tag">Cross-platform</div></article>
+        <article class="cap-card"><span class="number">05</span><h3>SwiftUI</h3><p>Native iOS interface development with a focus on declarative UI and cross-platform product consistency.</p><div class="tag">iOS</div></article>
+      </div></section>
+
+    <section id="projects" class="section">
+      <div class="section-label">03 / Selected work</div><h2>Projects with a point of view.</h2>
+      <div class="project-list">
+        <article class="project featured"><div class="project-meta"><span>01</span><span>Android · NDK / JNI</span></div><h3>Adobe Photoshop Express</h3><p>Worked on low-latency PCX image-editing features using Android NDK/JNI, integrating native C/C++ processing with Kotlin and Java components.</p><div class="project-bottom"><div class="tags"><span>Kotlin</span><span>Compose</span><span>JNI</span><span>C++</span></div><button class="expand" data-target="case-ps">Read case study +</button></div><div id="case-ps" class="case-study"><h4>Case study</h4><p><b>Focus:</b> Native image processing, concurrency, profiling, memory optimization and ANR reduction.</p><p><b>Technical depth:</b> Android NDK/JNI, native execution and coordination with Android components.</p><p><b>Scale:</b> Resume-listed product with 100M+ Play Store downloads.</p></div></article>
+        <article class="project"><div class="project-meta"><span>02</span><span>Enterprise Android · Modernization</span></div><h3>WM Driver App & OBU</h3><p>Modernized an enterprise Android application using UDF, MVVM, Clean Architecture, Jetpack Compose and Room.</p><div class="project-bottom"><div class="tags"><span>Kotlin</span><span>Room</span><span>Compose</span><span>CI/CD</span></div><button class="expand" data-target="case-wm">Read case study +</button></div><div id="case-wm" class="case-study"><h4>Case study</h4><p><b>Focus:</b> ORMLite-to-Room persistence migration, navigation modernization and maintainability.</p><p><b>Delivery:</b> Feature-flagged releases and CI/CD improvements using Jenkins and GitHub Actions.</p></div></article>
+        <article class="project"><div class="project-meta"><span>03</span><span>Flutter · Real-time systems</span></div><h3>Falcon Eye</h3><p>Traffic monitoring and management platform integrating radar detections, RTSP video, interactive maps and native platform services.</p><div class="project-bottom"><div class="tags"><span>Flutter</span><span>RTSP</span><span>Maps</span><span>SignalR</span></div><button class="expand" data-target="case-falcon">Read case study +</button></div><div id="case-falcon" class="case-study"><h4>Case study</h4><p><b>Focus:</b> Platform Channels for maps, alerts, video playback and background traffic listeners.</p><p><b>Additional work:</b> RTL/localization support and real-time middleware integration.</p></div></article>
+        <article class="project"><div class="project-meta"><span>04</span><span>Flutter · FinTech / Healthcare</span></div><h3>BankSathi & LinkOMed</h3><p>Delivered Flutter applications with reusable components, Clean Architecture, payment integrations, secure workflows and release ownership.</p><div class="project-bottom"><div class="tags"><span>Flutter</span><span>Clean Architecture</span><span>Payments</span></div><button class="expand" data-target="case-flutter">Read case study +</button></div><div id="case-flutter" class="case-study"><h4>Case study</h4><p><b>Focus:</b> Null Safety modernization, referral optimization, KYC flows, deep links, maps, video and push notifications.</p><p><b>Resume metrics:</b> 1M-download BankSathi, 50M-download Apna.co and 99.8% crash-free users cited in the CV.</p></div></article>
+        <article class="project"><div class="project-meta"><span>05</span><span>Android · BLE</span></div><h3>Zip HACCP</h3><p>Integrated BLE temperature probes into an Android application to capture, receive and synchronize real-time food temperature readings.</p><div class="project-bottom"><div class="tags"><span>Android</span><span>BLE</span><span>GATT</span></div><button class="expand" data-target="case-ble">Read case study +</button></div><div id="case-ble" class="case-study"><h4>Case study</h4><p><b>Focus:</b> Device discovery, connection management, data reception and synchronization of sensor readings.</p></div></article>
+      </div></section>
+
+    <section id="architecture" class="section">
+      <div class="section-label">04 / Architecture lab</div><h2>From screen to system.</h2>
+      <p class="lead">Interactive diagrams for explaining how I think about mobile applications.</p>
+      <div class="arch-tabs"><button class="active" data-arch="android">Android</button><button data-arch="jni">JNI / C++</button><button data-arch="ble">BLE</button><button data-arch="flutter">Flutter</button></div>
+      <div class="diagram" id="diagram"></div>
+      <p class="diagram-caption" id="diagram-caption"></p>
+    </section>
+
+    <section id="notes" class="section split">
+      <div class="section-label">05 / Technical notes</div>
+      <div><h2>Learning in public, carefully.</h2><p class="lead">Short notes on the concepts I use, investigate and revisit.</p>
+      <div class="notes-list"><a href="#"><span>01</span>Understanding Kotlin Coroutines <b>↗</b></a><a href="#"><span>02</span>Room migration and schema validation <b>↗</b></a><a href="#"><span>03</span>BLE reliability patterns <b>↗</b></a><a href="#"><span>04</span>JNI boundaries and native calls <b>↗</b></a></div></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-label">06 / Contact</div><h2>Have a mobile problem<br><em>worth solving?</em></h2>
+      <p>I'm open to conversations about mobile engineering, product development and challenging technical work.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=mayankgoyal.mait@gmail.com" target="_blank" rel="noreferrer">Email me ↗</a>
+        <a class="btn ghost" href="https://wa.me/918800773060" target="_blank" rel="noreferrer">WhatsApp ↗</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/4gmayank/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a class="btn ghost" href="https://github.com/4gmayank" target="_blank" rel="noreferrer">GitHub ↗</a>
       </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <input type="text" id="searchBox" placeholder="Search project..." />
-    <div id="projectList"></div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>📧 <a href="mailto:mayankgoyal.mait@gmail.com">mayankgoyal.mait@gmail.com</a></p>
-    <p>🔗 <a href="https://linkedin.com/in/4gmayank" target="_blank">LinkedIn</a> | 
-       <a href="https://github.com/4gmayank" target="_blank">GitHub</a></p>
-    <p>📞 +91-8800773060</p>
-  </section>
-
-  <footer>
-    <p>© 2025 Mayank Goyal</p>
-  </footer>
+      <small>Lets Connect! 1 click away</small>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Mayank Goyal</span><span>Built with curiosity & care.</span></footer>
+  <script src="script.js"></script>
 </body>
 </html>
